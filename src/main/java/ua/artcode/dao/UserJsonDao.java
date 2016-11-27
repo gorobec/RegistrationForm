@@ -21,6 +21,8 @@ public class UserJsonDao implements IUserJsonDao{
     @Override
     public boolean saveUser(User user) {
         List<User> users = fileSaver.read();
+
+
         if(!users.contains(user)){
             users.add(user);
             fileSaver.save(users);

@@ -5,5 +5,6 @@ package ua.artcode.exceptions;
  */
 public class IncorrectEmailException extends Exception {
     public IncorrectEmailException(String s) {
+        super(s);
     }
 }

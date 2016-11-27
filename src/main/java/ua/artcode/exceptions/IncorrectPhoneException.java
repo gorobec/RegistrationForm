@@ -5,5 +5,6 @@ package ua.artcode.exceptions;
  */
 public class IncorrectPhoneException extends Exception {
     public IncorrectPhoneException(String s) {
+        super(s);
     }
 }

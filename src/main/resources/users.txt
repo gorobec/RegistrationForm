@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Jack",
+    "surname": "Sparrow",
+    "phone": "1234567890",
+    "email": "gorobec3@bigmir.net",
+    "password": "n!k1abcD#!"
+  },
+  {
+    "name": "John",
+    "surname": "Sparrow",
+    "phone": "1234567890",
+    "email": "gorobec3@bigmir.net",
+    "password": "n!k1abcD#!"
+  },
+  {
+    "name": "Jack",
+    "surname": "Smith",
+    "phone": "1234567890",
+    "email": "gor@mail.ru",
+    "password": "n!k1abcD#!"
+  },
+  {
+    "name": "Jack",
+    "surname": "Sparrows",
+    "phone": "1234567890",
+    "email": "gor@mail.ru",
+    "password": "n!k1abcD#!"
+  },
+  {
+    "name": "Jacky",
+    "surname": "Smith",
+    "phone": "1234567890",
+    "email": "dsds@ddfd.com",
+    "password": "n!k1abcD#!"
+  }
+]

@@ -19,7 +19,7 @@ public class RegistrationFrame extends JFrame {
     private JTextField surname = new JTextField(15);
     private JTextField phone = new JTextField(15);
     private JTextField email = new JTextField(15);
-    private JTextField password = new JTextField(15);
+    private JTextField password = new JPasswordField(15);
 
     private JButton register = new JButton("Register");
     private JButton cancel = new JButton("Cancel");
@@ -76,5 +76,53 @@ public class RegistrationFrame extends JFrame {
         add(cancel, constraints);
 
         pack();
+    }
+
+    public JLabel getNameLabel() {
+        return nameLabel;
+    }
+
+    public JLabel getSurnameLabel() {
+        return surnameLabel;
+    }
+
+    public JLabel getPhoneLabel() {
+        return phoneLabel;
+    }
+
+    public JLabel getEmailLabel() {
+        return emailLabel;
+    }
+
+    public JLabel getPasswordLabel() {
+        return passwordLabel;
+    }
+
+    public JTextField getUserName() {
+        return name;
+    }
+
+    public JTextField getSurname() {
+        return surname;
+    }
+
+    public JTextField getPhone() {
+        return phone;
+    }
+
+    public JTextField getEmail() {
+        return email;
+    }
+
+    public JTextField getPassword() {
+        return password;
+    }
+
+    public JButton getRegister() {
+        return register;
+    }
+
+    public JButton getCancel() {
+        return cancel;
     }
 }

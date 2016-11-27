@@ -15,8 +15,8 @@ public class ValidationUtils {
 
     private static final String NAME_PATTERN = "[A-Z][a-z]{2,15}";
     private static final String PHONE_PATTERN = "\\d{10}";
-    private static final String EMAIL_PATTERN = " ^(.+)@(.+)$";
-    private static final String PASSWORD_PATTERN = "((?=.*[a-z])(?=.*\\\\d)(?=.*[A-Z])(?=.*[@#$%!]).{8,40})\n";
+    private static final String EMAIL_PATTERN = "\\b[\\w.%-]+@[-.\\w]+\\.[A-Za-z]{2,4}\\b";
+    private static final String PASSWORD_PATTERN = "((?=.*[a-z])(?=.*\\d)(?=.*[A-Z])(?=.*[@#$%!]).{8,40})";
 
 
 

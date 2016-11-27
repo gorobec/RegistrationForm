@@ -5,6 +5,6 @@ package ua.artcode.exceptions;
  */
 public class IncorrectNameSurnameException extends Exception {
     public IncorrectNameSurnameException(String s) {
-
+        super(s);
     }
 }

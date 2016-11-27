@@ -5,5 +5,6 @@ package ua.artcode.exceptions;
  */
 public class IncorrectNPasswordException extends Exception {
     public IncorrectNPasswordException(String s) {
+        super(s);
     }
 }

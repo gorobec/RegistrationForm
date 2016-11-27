@@ -6,6 +6,7 @@ import com.google.gson.reflect.TypeToken;
 import ua.artcode.model.User;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -24,8 +25,11 @@ public class FileSaver {
     public List<User> read(){
         try {
             BufferedReader br = new BufferedReader(new FileReader(path));
-            return gson.fromJson(br, new TypeToken<List<User>>(){}.getType());
-
+            List<User> users = gson.fromJson(br, new TypeToken<List<User>>(){}.getType());
+            if(users == null){
+                users = new ArrayList<>();
+            }
+            return users;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
