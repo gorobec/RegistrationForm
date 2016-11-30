@@ -1,11 +1,11 @@
 package ua.artcode.dao;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import ua.artcode.model.User;
 import ua.artcode.utils.FileSaver;
 
 import java.util.List;
+
+import static ua.artcode.utils.MailSender.sendEmail;
 
 /**
  * Created by gorobec on 27.11.16.
@@ -26,9 +26,12 @@ public class UserJsonDao implements IUserJsonDao{
         if(!users.contains(user)){
             users.add(user);
             fileSaver.save(users);
+            sendEmail(user);
             return true;
         } else {
             return false;
         }
     }
+
+
 }

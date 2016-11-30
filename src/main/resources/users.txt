@@ -33,5 +33,12 @@
     "phone": "1234567890",
     "email": "dsds@ddfd.com",
     "password": "n!k1abcD#!"
+  },
+  {
+    "name": "Yevhen",
+    "surname": "Vorobiei",
+    "phone": "1234567890",
+    "email": "gorobec3@bigmir.net",
+    "password": "n!k1abcD#!"
   }
 ]
